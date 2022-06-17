@@ -129,6 +129,10 @@ img {
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  transition-property: color;
+  transition-timing-function: var(--cubic-bezier-basic);
+  transition-duration: var(--timing-function-basic);
 }
 
 .header-link:last-child {
@@ -204,6 +208,10 @@ img {
   padding: 10px 32px;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition-property: background-color;
+  transition-timing-function: var(--cubic-bezier-basic);
+  transition-duration: var(--timing-function-basic);
 }
 
 .hero-btn:hover,
@@ -380,6 +388,10 @@ img {
   color: var(--color-icon);
   border-radius: 50%;
   margin-right: 10px;
+
+  transition-property: color, background-color;
+  transition-timing-function: var(--cubic-bezier-basic);
+  transition-duration: var(--timing-function-basic);
 }
 
 .team-link-icon:hover,
@@ -431,6 +443,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition-property: color, border;
+  transition-timing-function: var(--cubic-bezier-basic);
+  transition-duration: var(--timing-function-basic);
 }
 
 .client-link:hover,
@@ -443,6 +459,11 @@ img {
   width: 106px;
   height: 60px;
   fill: currentColor;
+}
+
+.bug-svg {
+  width: 41px;
+  height: 47px;
 }
 
 /*--------------FOOTER--------------------*/
@@ -477,6 +498,10 @@ img {
 .footer-link {
   color: var(--color-footer-link);
   display: block;
+
+  transition-property: color;
+  transition-timing-function: var(--cubic-bezier-basic);
+  transition-duration: var(--timing-function-basic);
 }
 
 .logo-white {
@@ -531,6 +556,10 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   margin-right: 10px;
+
+  transition-property: background-color;
+  transition-timing-function: var(--cubic-bezier-basic);
+  transition-duration: var(--timing-function-basic);
 }
 
 .footer-link-icon:hover,
@@ -559,6 +588,10 @@ img {
   color: var(--color-taxt-header);
 
   padding: 6px 22px;
+
+  transition-property: background-color, color, box-shadow;
+  transition-timing-function: var(--cubic-bezier-basic);
+  transition-duration: var(--timing-function-basic);
 }
 .filter-btn-ul {
   display: flex;
@@ -589,6 +622,10 @@ img {
 .portfolio-work-list {
   margin-right: 30px;
   margin-bottom: 30px;
+
+  transition-property: box-shadow;
+  transition-timing-function: var(--cubic-bezier-basic);
+  transition-duration: var(--timing-function-basic);
 }
 .portfolio-top-wrap {
   position: relative;
